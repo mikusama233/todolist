@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" type="text/css" href="TodoList.css"/>
+    <meta name="viewport" content="width=375,user-scalable=no"/>
+</head>
+<body>
+    <div class="topdiv">
+        <div class="logdiv">TodoList</div>
+        <div class="iptdiv">
+            <input type="text" name="write" id="write" placeholder="请输入待办事件" value="">
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="list todo">
+            <h1>
+                <span class="title">正在进行</span>
+                <span class="num">0</span>
+            </h1>
+            <div class="clist">
+                <div class="item">
+                    <span class="checkbox">
+                        <input type="checkbox" name="check" value="" />
+                    </span>
+                    <span class="content">
+                        无事件
+                    </span>
+                    <span class="delete"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="list done">
+            <h1>
+                <span class="title">已完成</span>
+                <span class="num">0</span>
+            </h1>
+            <div class="clist"></div>
+        </div>
+    </div>
+    <script src="todo.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
